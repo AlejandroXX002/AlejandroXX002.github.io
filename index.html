@@ -1,65 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Alex Pulido's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="" id="theme-style" type="text/css">
+    <title>Alex Pulido</title>
+  </head>
+
   <body>
 
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="Resume.html"> Experience</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrapper">
+          <h1>Hi, I'm Alejandro Pulido</h1>
+        </div>
 
-    <header>
-      <img src="https://placeimg.com/400/400/animals" alt="Photo of a cat" class="profile-image">
-      <h1 class="tag name">Hello, I’m Alex.</h1>
-      <p class="tag location">My home is Puebla, Puebla.</p>
-    </header>
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div class="browser-dot" id="dot-1"></div>
+              <div class="browser-dot" id="dot-2"></div>
+              <div class="browser-dot" id="dot-3"></div>
+            </div>
 
-    <main class="flex">
-      <div class="card">
-        <h2 class="card-title">Background</h2>
-        <ul>
-        <li>I’m an aspiring web designer who loves everything about the web.</li> <li>I've lived in lots of different places and have worked in lots of different jobs.</li> <li> I’m excited to bring my life experience to the process of building fantastic looking websites</li>
-        <li>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</li>
-          <li>To learn more,<a href="Resume.html">view my resume</a></li>
-          </ul>
-        <h3>New line</h3>
-      
-        <ul>
-          <li>To learn more, <a href="resume.html">view my resume.</a></li>
-        </ul>
-      </div> 
+            <ul id="navigation">
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
 
-      <div class="card">
-        <h2 class="card-title">Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
-        </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
+          <div class="left-column">
+            <img id="profile_pic" src="images\myself.jpg" alt="">
+            <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://twitter.com/AlejandroPP6" target="_blink" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
-    </footer>
+            <div id="theme-options-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+            </div>
+
+            <p id="settings-note">Theme settings will be saved for <br> your next visit</p>
+          </div>
+
+
+
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div class="corner" id="corner-tl"></div>
+                <div class="corner" id="corner-tr"></div>
+                <h3>What I Do</h3>
+                <p>Example........</p>
+                <div class="corner" id="corner-br"></div>
+                <div class="corner" id="corner-bl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+
+            <p> example</p>
+            <p> example</p>
+            <hr>
+            <h4>Tech Stack</h4>
+            <p>Jr Front End Developer with: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+            <div id="skills">
+              <ul>
+                <li>HTML5/CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Sass</li>
+                <li>Node.js</li>
+              </ul>
+
+              <ul>
+                <li>Express</li>
+                <li>Bootsrap</li>
+              </ul>
+            </div>
+
+
+          </div>
+
+          <!-- image slider auto -->
+
+          <!--image slider start  -->
+          <div class="slider">
+            <div class="slides">
+              <!-- radio buttons start -->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <!-- radio buttons end -->
+              <!-- slide images start -->
+              <div class="slide first">
+                <img src="one.png" alt="" class="social_img">
+              </div>
+
+              <div class="slide">
+                <img src="two.jpg" alt="" class="social_img">
+              </div>
+
+              <div class="slide">
+                <img src="three.png" alt="" class="social_img">
+              </div>
+              <!-- slide images end-->
+              <!-- automatic navigation start -->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+              </div>
+              <!-- automatic navigation end-->
+            </div>
+            <!-- manual navigation start  -->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+          </div>
+          <!--image slider end  -->
+
+          <!-- end fo slide -->
+        </div>
+      </div>
+    </section>
+
+    <section class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center;">Some of my projects</h3>
+
+        <div class="post-wrapper">
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images\example.jpg" alt="">
+              <div class="post-preview">
+                <h6 class="post-title">Post title</h6>
+                <p class="post-intro">this is a sentece</p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images\example.jpg" alt="">
+              <div class="post-preview">
+                <h6 class="post-title">Post title</h6>
+                <p class="post-intro">this is a sentece</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <h3 style="text-align: center;">Get in Touch</h3>
+        <form action="" id="contact-form">
+
+          <label>Name</label>
+          <input type="text" name="name" class="input-field">
+
+          <label>Subject</label>
+          <input type="text" name="subject" class="input-field">
+
+          <label>Email</label>
+          <input type="text" name="email" class="input-field">
+
+          <label>Message</label>
+          <textarea name="message" class="input-field"></textarea>
+
+          <input type="submit" value="Send" id="submit-btn">
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js" type="text/JavaScript"></script>
   </body>
-  </html>
+
+</html>
