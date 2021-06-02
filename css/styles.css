@@ -350,6 +350,16 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
+
+#projects .project-info a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: white;
+	padding-top: 2rem;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
 #projects .projects-header h1 {
 	margin-bottom: 50px;
 }
@@ -393,6 +403,7 @@ p {
 #projects .project-info p {
 	color: white;
 }
+
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
@@ -406,8 +417,8 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
+	/* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.1; */
 }
 #projects .project-img img {
 	transition: 0.3s ease transform;
